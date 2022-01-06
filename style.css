@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.intro {
+  display: flex;
+  margin-bottom: 40px;
+}
+.about {
+  width: 50%;
+  margin-top: 60px;
+  padding-left: 5%;
+}
+.about-image {
+  width: 50%;
+
+  margin-left: 50px;
+  padding-left: 40px;
+}
+.about-image img {
+  width: 60%;
+}
+.linked-button {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #ff5959;
+  color: white;
+}
+.focus {
+  border-left: 5px solid;
+  border-image: linear-gradient(red, white);
+  border-image-slice: 1;
+  padding-left: 20px;
+}
+.focus h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.year-color {
+  color: orange;
+}
+.objective h1 {
+  text-align: center;
+  font-size: 35px;
+}
+.dream {
+  display: flex;
+  margin-bottom: 40px;
+}
+.aim {
+  width: 30%;
+  margin-left: 5%;
+
+  box-shadow: 10px 10px 30px grey;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+#mission {
+  background-color: #4f9da6;
+}
+#vision {
+  background-color: #ff59591a;
+}
+#goal {
+  background: #fff4d6;
+}
+.aim img {
+  width: 50%;
+}
+.development {
+  display: flex;
+  margin-bottom: 50px;
+}
+.development-area {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.development-area img {
+  width: 60%;
+}
+.community {
+  display: flex;
+  margin-bottom: 50px;
+}
+.community-area {
+  width: 50%;
+  padding-left: 5%;
+}
+.community-are-image {
+  width: 50%;
+  padding-left: 10%;
+}
+.community-are-image img {
+  width: 60%;
+}
+footer {
+  margin-top: 40px;
+  background: #0b0d17;
+
+  height: 200px;
+}
+.year {
+  text-align: center;
+  color: white;
+  padding: 20px 100px;
+}
+.year h1 {
+  font-family: "Lobster", cursive;
+}
+.footer-color {
+  color: #ff5959;
+}
+.contact {
+  display: flex;
+}
+.contact-area {
+  width: 50%;
+  padding-left: 50px;
+}
+
+.form-container {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
