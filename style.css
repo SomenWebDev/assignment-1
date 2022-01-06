@@ -120,6 +120,10 @@ footer {
   width: 50%;
   padding-left: 50px;
 }
+.contact-area h1 {
+  font-size: 50px;
+  color: red;
+}
 
 .form-container {
   width: 50%;
